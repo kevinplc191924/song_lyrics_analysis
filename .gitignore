@@ -1,0 +1,13 @@
+config.json
+*.env
+*.secret
+__pycache__/
+*.py[cod]
+data/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+*.log
+*.tmp

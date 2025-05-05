@@ -1,0 +1,7 @@
+{
+    "joy": ["love", "happy", "dream", "felicidad", "alegr\u00eda", "sun", "laugh"],
+    "anger": ["hate", "never", "no", "nunca", "odio", "mentira", "hell"],
+    "sadness": ["sad", "alone", "pain", "triste", "solitario", "lloro", "dolor"],
+    "romantic": ["love", "coraz\u00f3n", "beso", "abrazo", "te quiero", "amor", "skin"],
+    "melancholic": ["remember", "memories", "recuerdo", "nostalgia", "tiempo", "ayer"]
+    }
