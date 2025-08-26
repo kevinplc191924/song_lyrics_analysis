@@ -1,8 +1,12 @@
 # 🎵 Song Lyrics Analysis
 
+---
+
 ## Overview
 
 This project analyzes the lyrics of 20 songs by the artists Sin Bandera and Loveless. The analysis uncovers emotional themes and linguistic patterns within their music, providing insights into the emotional landscape of their songs.
+
+---
 
 ## Project Highlights
 
@@ -10,6 +14,24 @@ This project analyzes the lyrics of 20 songs by the artists Sin Bandera and Love
 - Clean and preprocess raw lyrics data.
 - Perform emotional analysis using lexicons.
 - Generate visualizations to summarize findings.
+
+---
+
+## Libraries Used
+This project leverages several Python libraries for text processing, sentiment analysis, visualization, and data extraction:
+
+- `pandas` → Data manipulation and tabular organization
+- `numpy`	→ Numerical operations and array handling
+- `matplotlib` →	Plotting and visualizations
+- `seaborn` →	Statistical data visualization
+- `wordcloud` →	Generating word cloud visualizations
+- `nltk` →	Natural language processing (tokenization, stopwords, emotion lexicons)
+- `vaderSentiment` →	Sentiment analysis using VADER
+- `lyricsgenius` →	Accessing Genius API to retrieve song lyrics and metadata
+- `re` →	Regular expressions for text cleaning
+- `collections` →	Frequency counting and data structuring
+
+---
 
 ## Project Structure
 ```text
@@ -29,6 +51,7 @@ This project analyzes the lyrics of 20 songs by the artists Sin Bandera and Love
   - notes.md # Notes on dictionaries and related methods
   - .gitignore
   - README.md
+  - requirements.txt
 ```
 
 ---
@@ -45,8 +68,8 @@ This notebook explores the emotional and linguistic patterns embedded in song ly
 
 ## 💡 Notable Findings
 - Songs with higher compound sentiment scores tend to use more emotionally charged vocabulary.
-- Certain artists consistently lean toward specific emotional tones (melancholic vs. uplifting).
-- Word clouds reveal recurring words that characterize the themes—love, time, pain, and dreams—across genres.
+- Certain artists consistently lean toward specific emotional tones (melancholic vs. happiness).
+- Word clouds reveal recurring words that characterize the themes—love, time, pain, possibility, and dreams—across genres.
 
 ## 📁 Structure and Reproducibility
 - Modular code cells allow for easy adaptation to new datasets.
