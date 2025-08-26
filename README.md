@@ -1,6 +1,28 @@
-# Song lyrics analysis project
-This project aimed to perform an analysis of the lyrics of 20 songs, for the artists Sin Bandera and Loveless. The process started with the data extraction, using the API from Genius. After some data cleaning, the analysis was done and its description and results are encountered in the `analysis` notebook.
+# 🎵 Song Lyrics Analysis
 
-- The notebooks `data_extraction` and `data_cleaning` also contain descriptions.
-- The `my_functions` folder contains the functions used through each step and their documentation.
-- The json file `emotion_lexicons` contains the labels (emotions) and words that describe them. It's a file used in `analysis` along with the `get_emotion_with_lexicons` function.
+## Overview
+
+This project analyzes the lyrics of 20 songs by the artists Sin Bandera and Loveless. The analysis uncovers emotional themes and linguistic patterns within their music, providing insights into the emotional landscape of their songs.
+
+## Project Highlights
+
+- Extract lyrics automatically from the Genius API.
+- Clean and preprocess raw lyrics data.
+- Perform emotional analysis using lexicons.
+- Generate visualizations to summarize findings.
+
+## Project Structure
+```text
+- song_lyrics_analysis/
+  - my_functions/ # Code used in the notebooks
+    - data_analysis.py
+    - data_cleaning.py
+    - data_extraction.py
+  - data_cleaning.ipynb
+  - data_extraction.ipynb
+  - analysis.ipynb
+  - emotion_lexicons.json
+  - notes.md # Notes on dictionaries and related methods
+  - .gitignore
+  - README.md
+```
