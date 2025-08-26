@@ -67,6 +67,7 @@ This notebook explores the emotional and linguistic patterns embedded in song ly
 - Artist Comparison: Sentiment distributions are compared across artists to reveal style and emotional differences.
 
 ## 💡 Notable Findings
+The process and results are in the `analysis.ipynb` file.
 - Songs with higher compound sentiment scores tend to use more emotionally charged vocabulary.
 - Certain artists consistently lean toward specific emotional tones (melancholic vs. happiness).
 - Word clouds reveal recurring words that characterize the themes—love, time, pain, possibility, and dreams—across genres.
